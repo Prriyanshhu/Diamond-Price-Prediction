@@ -48,9 +48,10 @@ The dataset contains information about diamonds, including:
 - Model Training
 - Prediction
 - Model Evaluation
-- Feature Importance Analysis
 - Actual vs Predicted Comparison
+- Feature Importance Analysis
 - Feature Importance Visualization
+- Actual vs Predicted Visualization
 
 ---
 
@@ -70,10 +71,10 @@ The Random Forest model was built using the following hyperparameters:
 
 | Metric | Value |
 |---------|------:|
-| R² Score | **YOUR_R2_SCORE** |
-| Mean Absolute Error (MAE) | **YOUR_MAE** |
-| Mean Squared Error (MSE) | **YOUR_MSE** |
-| Root Mean Squared Error (RMSE) | **YOUR_RMSE** |
+| R² Score | **0.9817** |
+| Mean Absolute Error (MAE) | **268.9379** |
+| Mean Squared Error (MSE) | **290181.0462** |
+| Root Mean Squared Error (RMSE) | **538.6846** |
 
 ---
 
@@ -93,7 +94,7 @@ The Random Forest model was built using the following hyperparameters:
 
 The Random Forest Regression model successfully learned the relationship between the physical characteristics of diamonds and their market prices. By combining predictions from multiple decision trees, the model produced accurate and stable price predictions while reducing the risk of overfitting.
 
-The model achieved an **R² Score of YOUR_R2_SCORE**, with an **MAE of YOUR_MAE**, **MSE of YOUR_MSE**, and an **Out-of-Bag Score of YOUR_OOB_SCORE**, demonstrating strong predictive performance on unseen data.
+The model achieved an **R² Score of 0.9817**, with an **MAE of 268.9379**, **MSE of 290181.0462**, and an **RMSE of 538.6846, demonstrating strong predictive performance on unseen data.
 
 ---
 
